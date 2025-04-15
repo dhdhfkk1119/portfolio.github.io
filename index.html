@@ -354,7 +354,7 @@
         .footer-wrap {
             display: flex;
             align-items: center; /* 이미지와 텍스트를 수직 중앙 정렬 */
-            gap: 10px; /* 이미지와 텍스트 사이 간격 */
+            gap: 20px; /* 이미지와 텍스트 사이 간격 */
             max-width: 80px; /* 이미지 크기에 맞게 컨테이너 제한 */
             
         }
@@ -368,7 +368,7 @@
             color:black;
             font-weight:600;
             font-size:14px;
-            padding:15px;
+            padding:20px 40px;
             border-radius:15px;
             transition: transform 0.3s ease-in-out;
         }
@@ -404,6 +404,9 @@
             color:white;
             font-size:20px;
             font-weight:700;
+        }
+        .velog {
+            border-radius: 50%;
         }
         
         #topBtn {
@@ -568,12 +571,13 @@
                 </div>
                 <div class="languages-wrap">
                     <div class="languages-wrap-h1">
-                    <img alt="Language 아이콘" loading="lazy" width="32" height="32" decoding="async" data-nimg="1" style="color:transparent" src="../image/programming.png
+                    <img alt="Language 아이콘" loading="lazy" width="32" height="32" decoding="async" data-nimg="1" style="color:transparent" src="https://github.com/user-attachments/assets/a8e2f494-edb5-4135-a22f-e87fd865a722
                     "><span>개발프로그램</span>
                     </div>
                     <ul class="languages-wrap-ul">
                         <li><img class="lan-img vscode" src="https://img.shields.io/badge/VSCode-007ACC?style=for-the-badge&logo=visualstudiocode&logoColor=white"></li>
                         <li><img class="lan-img sublimetext" src="https://img.shields.io/badge/SublimeText-FF9800?style=for-the-badge&logo=sublimetext&logoColor=white"></li>
+                        <li><img class="lan-img intellij" src="https://img.shields.io/badge/IntelliJIDEA-000000?style=for-the-badge&logo=intellijidea&logoColor=white"></li>
                     </ul>
                 </div>
             </div>
@@ -603,7 +607,7 @@
                         <span>자세한 코드 설명</span> <a href="https://www.notion.so/1afccc56b31e8013b325d0fb88095146?pvs=4">https://www.notion.so/1afccc56b31e8013b325d0fb88095146?pvs=4</a>                        
                     </div>
                     <div class="projects-wrap-link">
-                        <span>전체 코드 파일</span> <a href="https://github.com/dhdhfkk1119/DOGSHOP.git">https://github.com/dhdhfkk1119/DOGSHOP.git</a>
+                        <span>전체 코드 파일 및 시현 영상</span> <a href="https://github.com/dhdhfkk1119/DOGSHOP.git">https://github.com/dhdhfkk1119/DOGSHOP.git</a>
                     </div>
                     <div class="projects-wrap-skills">
                         <img src="https://img.shields.io/badge/SpringBoot-6DB33F?style=for-the-badge&logo=springboot&logoColor=white">,<img src="https://img.shields.io/badge/JSON-000000?style=for-the-badge&logo=json&logoColor=white">,<img src="https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white">,<img src="https://img.shields.io/badge/AJAX-02569B?style=for-the-badge&logo=javascript&logoColor=white">,<img src="https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white">,<img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black">
@@ -711,9 +715,14 @@
         <div class="footer">
             <div class="footer-wrap">
                 <a href="https://github.com/dhdhfkk1119">
-                    <div><img src="https://github.com/user-attachments/assets/fd37533d-9b2a-4358-95be-3e1cb590bd76" alt="" width="80px"></div>
+                    <div><img src="https://github.com/user-attachments/assets/fd37533d-9b2a-4358-95be-3e1cb590bd76" alt="" width="80px" class="footer-wrap-img"></div>
                     <div class="footer-wrap-a">https://github.com/dhdhfkk1119</div>
                     <div class="footer-wrap-p"><span>프로젝트 사이트</span></div>
+                </a>
+                <a href="https://velog.io/@dhdhfkk1119/posts">
+                    <div><img src="https://github.com/user-attachments/assets/db437a9f-d376-4202-9bfa-cfa0f4da73ad" alt="" width="80px" class="footer-wrap-img velog"></div>
+                    <div class="footer-wrap-a">https://velog.io/@dhdhfkk1119/posts</div>
+                    <div class="footer-wrap-p"><span>개발 및 공부 블로그</span></div>
                 </a>
             </div>
             <div class="footer-copyright">
